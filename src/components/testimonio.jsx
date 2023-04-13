@@ -1,9 +1,10 @@
 import React from "react";
+import "../stylesheets/testimonio.css"
 
 
 function Testimonio (){
   return (
-    <div className='container-testimonials'>
+    <div className='container-testimonio'>
       <img className='imagen-testimonio'
         src={require('../images/attractive-1869761_640.jpeg')} 
         alt='foto-ema'
